@@ -1,4 +1,5 @@
 *.dSYM
 *.plist
 *.json
-01_intro_declaracion/main
+**/main
+
