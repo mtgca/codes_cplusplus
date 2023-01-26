@@ -1,5 +1,5 @@
 *.dSYM
 *.plist
 *.json
-**/main
+main
 
