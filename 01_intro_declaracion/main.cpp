@@ -6,7 +6,7 @@ using namespace std;
 
 /* Definir constantes */
 #define FALSO 0 /* Define la constante entera  FALSO con  0 */
-#define PI 3.141516 /* Define la constante real PI con 3.141516 */
+#define PI 3.1415161 /* Define la constante real PI con 3.141516 */
 #define HEX_10 0xA /* Define la constante hexadecimal HEX_10 con 0xA */
 #define BIN_3 0b011 /* Define la constante binaria BIN_3 con 0b11*/
 #define VERDAD 'S' /* Define la constante VERDAD 'S' */
