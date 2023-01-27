@@ -21,7 +21,7 @@ using namespace std;
 int main()
 {
     /* Declarar e inicializar variables locales */
-    int f, s=0; /* Declara las variables enteras f y s.  Se inicializa s en 0 */
+    int f, s=1; /* Declara las variables enteras f y s.  Se inicializa s en 0 */
     float area=0.0, raiz; /* Declara las variables reales area y raiz. Se inicializa area en 0.0 */
     char sexo='f'; /*Declara la variable sexo de tipo caracter y la inicializa en 'f' */
     

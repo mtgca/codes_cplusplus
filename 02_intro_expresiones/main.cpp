@@ -1,13 +1,25 @@
 // Main function of the C++ program.
 
+/* Incluir librerias */
 #include <iostream>
 using namespace std;
 
+/* Definir constantes */
+
+/* Definir tipos de datos */
+/* Los veremos mas adelante  */
+
+/* Definir prototipos de nuestras funciones */
+/* Los veremos mas adelante  */
+
+/* Programa principal */
 int main()
 {
+    /* Declarar e inicializar variables locales */
     int i = 2, j = 4;
     float r = 9.0;
     
+    /* Sentencias */
     // Operadores Aritmeticos
     cout << "===== Operadores Aritmeticos =======" << endl;
     cout << "i + j = " << i + j << endl;
@@ -46,3 +58,6 @@ int main()
     cout << "fin";
     return 0;
 }
+
+/* Definir funciones */
+/* Los veremos mas adelante  */
