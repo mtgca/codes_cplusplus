@@ -1,4 +1,4 @@
-// Main function of the C++ program.
+
 
 /* Incluir librerias */
 #include <iostream> // para entrada y  salida de datos
