@@ -24,12 +24,14 @@ int main()
     int f, s=1; /* Declara las variables enteras f y s.  Se inicializa s en 0 */
     float area=0.0, raiz; /* Declara las variables reales area y raiz. Se inicializa area en 0.0 */
     char sexo='f'; /*Declara la variable sexo de tipo caracter y la inicializa en 'f' */
+    string nombre = "Nicolas";
     
     /* Sentencias */
     cout << "Hello World!" << endl; //endl da un salto de linea
     cout << "f = " << f << endl; // f contiene valor indeterminado
     cout << "BIN_3 = " << BIN_3 << "\n"; // "\n" da un salto de linea (igual que endl)
     cout << "sexo = " << sexo << endl;
+    cout << "Nombre = " << nombre << endl;
     return 0;
 }
 
