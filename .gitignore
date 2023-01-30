@@ -1,0 +1,5 @@
+*.dSYM
+*.plist
+*.json
+main
+*.DS_Store
