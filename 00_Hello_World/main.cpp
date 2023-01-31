@@ -19,7 +19,7 @@ int main()
     /* Los veremos mas adelante  */
     
     /* Sentencias */
-    cout << "Hola Mundo!!!" << endl; //endl da un salto de linea
+    cout << "Hola Mundo" << endl; //endl da un salto de linea
 
     return 0;
 }
