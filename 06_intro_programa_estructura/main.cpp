@@ -15,7 +15,7 @@ int main()//FUNCION PRINCIPAL, OBLIGATORIA. Puede omitirse int.
     cout << "Constante PI = " << PI << endl; //Sentencias termina en ;
     cout << "Variable local = " << variable_local << endl;
 
-    return 0; //valor de retorno. No es necesario si se declara main() sin int.
+    return 0; //valor de retorno.
     
     /* Esto es un comentario */
     
