@@ -3,7 +3,7 @@
 /* Incluir librerias */
 #include <iostream> // para entrada y  salida de datos
 using namespace std;
-#include <math.h>
+#include <cmath>
 
 /* Definir constantes */
 
