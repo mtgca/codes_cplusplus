@@ -1,6 +1,7 @@
 
 /* Incluir librerias */
 #include <iostream> // para entrada y  salida de datos
+#include <iomanip> // manipuladores setw, setprecision
 using namespace std;
 
 /* Definir constantes */
@@ -32,7 +33,7 @@ int main()
     cout << "Conversion de min. a may. = " << letra << endl;
     cout << "Tamano de un char en bytes: " << sizeof(char) << endl;
     cout << "Tamano de un unsigned char en bytes: " << sizeof(unsigned char) << endl;
-    cout << "**************************************************" << endl << endl;
+    cout << setw(40) << setfill('*') << "" << endl << endl;
     
     /* enteros */
     rango = (edad >= 17 && edad < 65); // boolean
@@ -47,7 +48,7 @@ int main()
     cout << "Tamano de un short int en bytes: " << sizeof(short int) << endl;
     cout << "Tamano de un unsigned int en bytes: " << sizeof(unsigned int) << endl;
     cout << "Tamano de un unsigned long int en bytes: " << sizeof(unsigned long int) << endl;
-    cout << "**************************************************" << endl << endl;
+    cout << setw(40) << setfill('*') << "" << endl << endl;
     
     /* reales */
      
