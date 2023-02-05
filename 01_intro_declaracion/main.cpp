@@ -25,6 +25,7 @@ int main()
     float area=0.0, raiz; /* Declara las variables reales area y raiz. Se inicializa area en 0.0 */
     char sexo='f'; /*Declara la variable sexo de tipo caracter y la inicializa en 'f' */
     string nombre = "Nicolas";
+    bool positivo = (s > 0);
     
     /* Sentencias */
     cout << "Hello World!" << endl; //endl da un salto de linea
@@ -32,6 +33,7 @@ int main()
     cout << "BIN_3 = " << BIN_3 << "\n"; // "\n" da un salto de linea (igual que endl)
     cout << "sexo = " << sexo << endl;
     cout << "Nombre = " << nombre << endl;
+    cout << "positivo = " << positivo << endl;
     return 0;
 }
 
