@@ -51,8 +51,12 @@ int main()
     << setw(3) << "*" 
     << setw(6) << setprecision(3) << altura 
     << setw(6) << " = " 
-    << setw(6) << setprecision(3) << area << endl;
+    <<  setw(6) << setprecision(3) << area << endl;
 
+    cout << "Con fixed: "
+    << fixed << setprecision(6) << base << endl;
+    cout << "Sin fixed (defaultfloat remueve el efecto de fixed): "
+    << defaultfloat << setprecision(6) << base << endl;
     //rellena de * hasta un ancho de 20. 
     //De forma predeterminada el texto se alinea a la derecha
     cout << setw(20) << setfill('*') << "Derecha" << endl;
