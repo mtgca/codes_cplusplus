@@ -6,10 +6,13 @@ using namespace std;
 
 /* Definir constantes */
 #define FALSO 0 /* Define la constante entera  FALSO con  0 */
+#define FLAG true /* Define la constante entera  FALSO con  0 */
 #define PI 3.141516/* Define la constante real PI con 3.141516 */
 #define HEX_10 0xA /* Define la constante hexadecimal HEX_10 con 0xA */
 #define BIN_3 0b011 /* Define la constante binaria BIN_3 con 0b11*/
 #define VERDAD 'S' /* Define la constante VERDAD 'S' */
+#define CIUDAD "Quito" /* Define la constante CIUDAD "Quito" */
+#define CIUDAD "Quito" /* Define la constante CIUDAD "Quito" */
 
 /* Definir tipos de datos */
 /* Los veremos mas adelante  */
@@ -25,7 +28,7 @@ int main()
     float area=0.0, raiz; /* Declara las variables reales area y raiz. Se inicializa area en 0.0 */
     char sexo='f'; /*Declara la variable sexo de tipo caracter y la inicializa en 'f' */
     string nombre = "Nicolas";
-    bool positivo = (s > 0);
+    bool positivo = (s > 0); // s es mayor que cero?
     
     /* Sentencias */
     cout << "Hello World!" << endl; //endl da un salto de linea
@@ -33,7 +36,11 @@ int main()
     cout << "BIN_3 = " << BIN_3 << "\n"; // "\n" da un salto de linea (igual que endl)
     cout << "sexo = " << sexo << endl;
     cout << "Nombre = " << nombre << endl;
-    cout << "positivo = " << positivo << endl;
+    cout << "positivo ? = " << positivo << endl;
+    cout << "positivo ? = " << boolalpha << positivo << endl;
+    cout << "CIUDAD = " << CIUDAD << endl;
+    cout << "FLAG = " << FLAG << endl;
+    
     return 0;
 }
 
