@@ -25,7 +25,8 @@ int main()
     bool error = false;
     float a; /* Variable real */
     double b; /* Variable real con mayor rango y precision que la anterior */
-  
+    string nombre = "Ana";
+    string apellido = "Andrade";
     /* caracteres */
     
     cout << "letra es minuscula? = " << (letra>='a' && letra<='z') << endl;
@@ -74,6 +75,9 @@ int main()
     cout << "Tamano de un double en bytes: " << sizeof(double) << endl;
     cout << "Tamano de un long double en bytes: " << sizeof(long double) << endl;
     
+    /* strings */
+    cout << "Nombre completo: " << nombre + " " + apellido << endl;
+   
     return 0;
 }
 
