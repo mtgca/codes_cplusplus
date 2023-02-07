@@ -16,13 +16,21 @@ using namespace std;
 int main()
 {
     /* Declarar e inicializar variables locales */
-    int i = 2, j = 4;
+    int i = 2, j = 4, k = 2, m = 3;
     float r = 9.0;
     
     /* Sentencias */
     // Operadores Aritmeticos
     cout << "===== Operadores Aritmeticos =======" << endl;
     cout << "i + j = " << i + j << endl;
+    k++; // equivalente a k = k + 1;
+    cout << " k++ = " << k << endl;
+    m--;// equivalente a m = m - 1;
+    cout << " m-- = " << m << endl;
+    k+=3; // equivalente a k = k + 3;
+    cout << " k+3 = " << k << endl;
+    m-=5;// equivalente a m = m - 5;
+    cout << " m-- = " << m << endl;
     cout << "r - 1.5 = " << r - 1.5 << endl;
     cout << "j/3 = " << j / 3 << endl; //division entera
     cout << "j/3.0 = " << j / 3.0 << endl; //division
