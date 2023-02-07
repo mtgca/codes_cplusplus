@@ -12,7 +12,6 @@ using namespace std;
 #define BIN_3 0b011 /* Define la constante binaria BIN_3 con 0b11*/
 #define VERDAD 'S' /* Define la constante VERDAD 'S' */
 #define CIUDAD "Quito" /* Define la constante CIUDAD "Quito" */
-#define CIUDAD "Quito" /* Define la constante CIUDAD "Quito" */
 
 /* Definir tipos de datos */
 /* Los veremos mas adelante  */
