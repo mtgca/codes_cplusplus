@@ -30,7 +30,7 @@ int main()
     k+=3; // equivalente a k = k + 3;
     cout << " k+3 = " << k << endl;
     m-=5;// equivalente a m = m - 5;
-    cout << " m-- = " << m << endl;
+    cout << " m-=5 = " << m << endl;
     cout << "r - 1.5 = " << r - 1.5 << endl;
     cout << "j/3 = " << j / 3 << endl; //division entera
     cout << "j/3.0 = " << j / 3.0 << endl; //division
