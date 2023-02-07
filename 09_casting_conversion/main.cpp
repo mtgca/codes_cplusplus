@@ -99,6 +99,10 @@ int main()
     res = (float) numerador/den + 3.7; /* Asigna el valor 4 a la variable res */
     cout << "casting (explicito) de expresion: " << res << endl;
     cout << setw(40) << setfill('*') << "" << endl << endl;
+    
+    cout << left << setw(40) << setfill('*') << "Casting de strings" << endl;
+    cout << 5 + stof("3.14") << endl;
+    cout << setw(40) << setfill('*') << "" << endl << endl;
     return 0;
 }
 
