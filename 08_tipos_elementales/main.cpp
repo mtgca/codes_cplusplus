@@ -27,6 +27,11 @@ int main()
     double b; /* Variable real con mayor rango y precision que la anterior */
     string nombre = "Ana";
     string apellido = "Andrade";
+    
+    int c(4.2); // inicializa en 4, NO previene narrowing;
+    int d{4}; // inicializa en 4, previene "narrowing"
+    int e{}; // inicializa en 0
+
     /* caracteres */
     
     cout << "letra es minuscula? = " << (letra>='a' && letra<='z') << endl;
