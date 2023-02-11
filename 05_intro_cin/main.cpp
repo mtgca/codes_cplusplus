@@ -43,14 +43,18 @@ int main()
     //leer strings
     cout << "Ingrese un entero: ";
     cin >> entero;
-    cout << "Ingrese un nombre y apellido (lectura con getline): ";
-    cin.ignore(); // necesario porque se ha usado cin antes de getline 
-    getline(cin, nombre);
-    cout << "Nombre ingresado: " << nombre << endl;
-
+    cout << "Entero = " << entero << endl;
+    
     cout << "Ingrese un nombre y apellido (lectura con cin): ";
     cin >> nombre; // cin no puede leer espacios en blanco
     cout << "Nombre ingresado con cin: " << nombre << endl;
+    
+    cout << "Ingrese un nombre y apellido (lectura con getline): ";
+    cin.ignore(); // necesario porque se ha usado cin antes de getline
+    getline(cin, nombre);
+    cout << "Nombre ingresado: " << nombre << endl;
+
+
     return 0;
 }
 
