@@ -7,13 +7,6 @@ using namespace std;
 /* Definir constantes */
 #define ERROR 0.1E-02
 
-/* Definir tipos de datos */
-/* Los veremos mas adelante  */
-
-/* Definir prototipos de nuestras funciones */
-/* Los veremos mas adelante  */
-
-/* Programa principal */
 int main()
 {
     /* Declarar e inicializar variables locales */
