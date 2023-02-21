@@ -7,7 +7,7 @@ int main()
     
     cout << "Introduzca una fecha en formato aaaammdd: ";
     cin >> fecha;
-    if (fecha > 0)
+    if (cin.good() and fecha > 0)
     {
         dia = fecha%100;
         fecha = fecha/100;
