@@ -8,8 +8,9 @@ int main()
     cin >> letra;
     while (letra != '.')
     {
-        carac = carac + 1;
         cin >> letra;
+        carac = carac + 1;
+        
     }
     cout << "La cantidad de caracteres de la secuencia es: " << carac << endl;
     return 0;
