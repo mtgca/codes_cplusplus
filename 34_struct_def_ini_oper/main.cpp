@@ -40,11 +40,12 @@ int main()
     
     /*acceso a un campo de una estructura*/
     cout << hoy.dia << endl;
-    cout << c1.part_imag << endl;
+    //cout << c1.part_imag << endl;
     cout << yo.letra << endl;
     cout << p.fn.anyo << endl;
     
     /*operaciones con un campo*/
+   
     c1.part_entera = 2.1;
     c1.part_imag = 3.4;
     c1.part_entera = c1.part_entera + 1;
@@ -61,6 +62,8 @@ int main()
     
     cout << "Introduzca parte entera y parte imaginaria: ";
     cin >> c1.part_entera >> c1.part_imag;
+    
+    // operaciones entre estructuras completas
     
     c2 = c1;
     yo = p.dni;
