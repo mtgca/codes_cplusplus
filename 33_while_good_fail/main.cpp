@@ -14,7 +14,7 @@ int main()
         cin >> input;
         if (cin.good())
         {
-            result += input;
+            result += input; // result = result + input;
         }
         if (cin.fail())
         {
