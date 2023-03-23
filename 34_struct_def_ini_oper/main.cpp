@@ -36,8 +36,9 @@ int main()
     tdni yo;
     tfecha hoy = {.dia=1, .mes=12, .anyo=2013};
     tpersona p = {{1234567, 'A'},{30, 6, 1945}};
-    tpersona p2 = {{.letra='B', .num=123456789},{.anyo=1945, .mes=12, .dia=11}};
-    
+    tpersona p2 = {{.num=123456789, .letra='B', },{ .dia=11,.mes=12, .anyo=1945}};
+    tpersona p5 = {.dni={123124,'C'}, .fn={20,3,1978}};
+    tpersona p6 = {{123124,'C'}, {20,3,1978}};
     /*acceso a un campo de una estructura*/
     cout << hoy.dia << endl;
     //cout << c1.part_imag << endl;
