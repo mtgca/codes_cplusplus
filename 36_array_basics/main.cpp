@@ -57,12 +57,31 @@ int main() {
         cout << friends[i] << endl;
     }
     
+    // iterar en un string letra a letra
+    string ciudad = "Quito";
+    for (int k=0; k < ciudad.length();k++)
+        cout << ciudad[k] <<endl;
+    
     // enhanced loop
     cout << endl << "Enhanced loop" << endl << endl;
     for (string myfriend: friends) {
         cout << myfriend << endl;
     }
     
+    // enhanced loop en un string lerta a letra
+    string nombre = "Abcde";
+    for (char c: nombre)
+        cout << c <<endl;
     
+    // enhanced loop con index
+    // size_t es similar a un unsigned long int
+    // size_t suele tener 8 bytes en la mayoría de las plataformas
+    // size_t can help make your code more portable across different platforms.
+    
+    int arr[] = {1, 2, 3, 4, 5};
+    for (size_t index = 0; auto value : arr) {
+        std::cout << "arr[" << index << "] = " << value << '\n';
+    }
+
     return 0;
 }
