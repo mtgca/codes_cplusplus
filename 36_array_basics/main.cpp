@@ -79,9 +79,10 @@ int main() {
     // size_t can help make your code more portable across different platforms.
     
     int arr[] = {1, 2, 3, 4, 5};
-    for (size_t index = 0; auto value : arr) {
-        std::cout << "arr[" << index << "] = " << value << '\n';
-    }
+        for (size_t index = 0; int x : arr) {
+            cout << "arr[" << index << "] = " << x << '\n';
+            index++;
+        }
 
     return 0;
 }
