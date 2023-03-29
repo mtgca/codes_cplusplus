@@ -13,6 +13,7 @@ typedef char tMyString[1024];
 typedef tPersona tPersonas[3];
 
 int main() {
+
     tMyString mensaje = "max 1023 chars";
     tMyString names[2] = {"Alice", "Bob"};
     cout<< mensaje << endl;
