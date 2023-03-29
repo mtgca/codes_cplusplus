@@ -29,28 +29,3 @@ int main() {
     return 0;
 }
 
-/*
-#include <iostream>
-#include <vector>
-using namespace std;
-struct tPersona {
-    string nombre;
-    int edad;
-    double estatura;
-};
-
-int main() {
-    vector<tPersona> personas;
-
-    personas.push_back({"Alice", 30, 1.75});
-    personas.push_back({"Bob", 25, 1.80});
-    personas.push_back({"Charlie", 35, 1.65});
-
-    for (const auto& persona : personas) {
-        std::cout << persona.nombre << " tiene " << persona.edad << " años y mide "
-                  << persona.estatura << " metros.\n";
-    }
-
-    return 0;
-}
-*/
