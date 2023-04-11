@@ -29,10 +29,7 @@ int main() {
        cout << top[i] << names.at(i) << endl;
     }
     
-    /* Sin eliminar ningún código existente, hacer lo siguiente:
-    1. intercambiar los lugares de Alan y Carol.
-    2. reemplazar a David con Fred.
-    3. hacer que Grace obtenga el "quinto" lugar y eliminar a Ellen de la lista.
+
      */
     return 0;
 }
