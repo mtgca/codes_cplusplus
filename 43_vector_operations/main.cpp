@@ -55,7 +55,7 @@ int main() {
     x.push_back(100); //aniadir 100 al vector
     x.push_back(150); //aniadir 150 al vector
     x.erase(x.begin()+1); //removes 100 (indice 1)
-    
+    //x.erase(x.begin()+5); //levanta excepcion
     /**** Modificar elementos a un vector  */
     
     vector<string> contact = {"First name", "Last name", "Phone number"};
