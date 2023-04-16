@@ -10,6 +10,7 @@ struct tPersona {
 
 int main() {
     vector<tPersona> personas;
+    vector<tPersona> personas2(5);
     tPersona p;
     
     personas.push_back({"Alice", 30, 1.75});
@@ -18,7 +19,7 @@ int main() {
     personas.push_back(p);
 
     /*By using a reference to the element (const auto& persona) instead of a copy (auto persona), we avoid making a copy of the element and instead operate directly on the element stored in the vector. This can improve performance, especially if the elements are large or expensive to copy.*/
-    for (auto persona : personas) {
+    for (const auto& persona : personas) {
         std::cout << persona.nombre << " tiene " << persona.edad << " años y mide "
                   << persona.estatura << " metros.\n";
     }
