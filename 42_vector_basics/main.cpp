@@ -11,7 +11,9 @@ int main() {
     // A diferencia de los arrays, imprimir un vector no imprime su posicion de memoria
     //cout << numbers << endl; //esta linea genera un error
     
-    cout << "Indice 0 de numbers: " << numbers.at(2) << endl; // imprime el indice cero
+    cout << "Indice 0 de numbers: " << numbers.at(0) << endl;
+    cout << "Indice 2 de numbers: " << numbers[2] << endl;
+    // imprime el indice cero
     
     //Indice 3 de numbers (NO EXISTE, levanta excepcion):
     //cout << "Indice 3 de numbers: " << numbers.at(3) << endl;
