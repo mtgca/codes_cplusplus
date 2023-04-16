@@ -28,7 +28,6 @@ int main() {
     for (int i = 0; i < 5; i++) {
        cout << top[i] << names.at(i) << endl;
     }
-    
 
     return 0;
 }
