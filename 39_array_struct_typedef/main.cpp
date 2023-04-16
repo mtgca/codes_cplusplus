@@ -9,6 +9,7 @@ struct tPersona{
 
 //typedef define tipos personalizados (similar a un alias)
 typedef unsigned long int entero_sin_signo_muy_grande;
+typedef unsigned long int uint64;
 typedef char tMyString[1024];
 typedef tPersona tPersonas[3];
 
@@ -17,6 +18,7 @@ int main() {
     tMyString mensaje = "max 1023 chars";
     tMyString names[2] = {"Alice", "Bob"};
     cout<< mensaje << endl;
+    uint64 y=1;
     entero_sin_signo_muy_grande x=1;
     
     tPersonas personas = {
