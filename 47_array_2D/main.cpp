@@ -12,7 +12,7 @@ int main() {
     
     int imagen[5][8];
     int video[5][8][100];
-    double coordenadas[1000][500][200];
+    double coordenadas[10][50][200];
     
     int nrow = sizeof(names) / sizeof(names[0]);
     int ncol = sizeof(names[0]) / sizeof(string);
