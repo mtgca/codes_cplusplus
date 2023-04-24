@@ -2,8 +2,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 int main() {
     
     int num= 9;
@@ -15,6 +13,7 @@ int main() {
     
     
     // Para imprimir direcciones de char es necesario hacer un casting a (void*)
+    // https://cplusplus.com/forum/general/59834/
     char car = 'c';
     char *pcar;
     pcar = &car; // La variable pcar es inicializada con la direccion de la variable car
