@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     
     int num= 9;
-    int *pnum; //variable tipo puntero (a un entero)
+    int *pnum; // Variable tipo puntero (a un entero)
     pnum = &num; // La variable pcar es inicializada con la direccion de la variable num
     cout << "Son direcciones: pnum = " << pnum << " y &num = " << (&num) << endl; // pnum y &num son direcciones de memoria.
     cout << "Tamanio de pnum en bytes= " << sizeof(pnum) << endl;
