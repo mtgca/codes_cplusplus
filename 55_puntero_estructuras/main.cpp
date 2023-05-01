@@ -7,8 +7,9 @@ struct tdni {
 };
 
 void mostrar_dni(tdni d);
-void leer_dni(tdni *d);
-void leer_dni2(tdni &d);
+void leer_dni(tdni *d); //*d es un puntero a tdni
+
+void leer_dni2(tdni &d); // &d es una referencia a tdni
 
 int main() {
     tdni nif;
