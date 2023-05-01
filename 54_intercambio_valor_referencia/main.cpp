@@ -14,10 +14,10 @@ int main()
     return 0;
 }
 
-void intercambio(int *val1, int *val2)
+void intercambio(int *val1, int *val2) //*val1 es un puntero
 {
     int aux;
-    aux = *val1;
+    aux = *val1; //*val1 es el contenido de la variable que apunta val1
     *val1 = *val2;
     *val2 = aux;
     cout << "Dentro de la func intercambiar *val1 = " << *val1
