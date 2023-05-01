@@ -26,6 +26,7 @@ int main() {
     
     int i=5,j=3;
     int *p;
+    //j = &i; //error
     p = &i; /* La variable p es inicializada con la direccion de
     la variable i. p apunta a i */
     j = *p; /* Se asigna a la variable j el valor al cual apunta
