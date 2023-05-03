@@ -18,6 +18,7 @@ int main(){
 /* Funcion que muestra por pantalla los MAX elementos de vec */
 void mostrar_vector(vector<int> *vec){
     for(int i=0; i<MAX; i++)
+        // *vec.at(i)
         cout << vec->at(i) << " "; // no se puede usar vec[i] porque vec es una clase, no un array.
 }
 
@@ -25,6 +26,6 @@ void mostrar_vector(vector<int> *vec){
 void inic_vector(vector<int> &vec){
     cout << "Introduzca " << MAX << " elementos enteros (separados por un espacio): ";
     for(int i=0;i<MAX;i++)
-        cin >> vec[i];
+        cin >> vec.at(i); // vec[i]
 }
 
