@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void intercambio(int *val1, int *val2);
+void intercambio(int *val1, int *val2); // con puntero
 void intercambio2(int &val1, int &val2); // con referencia
 
 // ver diferencias entre puntero y referencia https://www.geeksforgeeks.org/pointers-vs-references-cpp/
