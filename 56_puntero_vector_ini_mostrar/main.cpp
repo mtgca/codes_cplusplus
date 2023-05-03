@@ -5,15 +5,17 @@ using namespace std;
 
 void mostrar_vector(int *vec);
 void inic_vector(int vec[]);
-
+ 
 int main(){
     int v[MAX];
     int *p1, *p2, *p3, *p4;
+    //const int tammax= 3;
     cout << sizeof(int);
     p1 = v;// es la primera dir de mem del array
     p2 = &v[0]; // v y &v[0] son alias
     p3 = &v[1];
     p4 = v + 1;
+    p1 = p4;
     inic_vector(v);
     mostrar_vector(v);
     return 0;
