@@ -18,4 +18,7 @@ int main() {
         cout << ciudad[k];
     }
     cout << endl;
+
+
+    return 0;
 }
