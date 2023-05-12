@@ -57,7 +57,7 @@ private:
 int main() {
     // Create an instance of the Animal class
     Animal myAnimal("Leo", "Lion", 5);
-
+    myAnimal.setName("Juan");
     // Call methods on the instance
     cout << myAnimal.getName() << " is a " << myAnimal.getSpecies() << " who is " << myAnimal.getAge() << " years old.\n";
     myAnimal.makeSound();
